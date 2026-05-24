@@ -1,10 +1,10 @@
-name:工作流
-on:push
+name: 工作流
+on: push
 jobs:
 test:
-runs-on:ubuntu-test
+runs-on: ubuntu-latest
 setps:
--run:echo"ok“
+-run: echo"ok“
 
 
 
